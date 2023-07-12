@@ -15,7 +15,7 @@ void printState(vector<int> frames)
 int main()
 {
     int size;
-    cout<<"Enter frame size: ";
+    cout<<"Enter frame number: ";
     cin >> size;
     vector<int> frames(size, -1);
     int miss = 0, page;
